@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 class="bg-blue-300">Hello Tailwind</h1>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mx-auto max-w-sm bg-white">
+      <div class="hero space-y-8 py-8">
+        <div class="hero-title space-y-5">
+          <h1 class="text-center text-4xl font-bold text-gray-900">
+            Deliver software solutions that drive change
+            <span class="bg-[#f2f7fc]">months faster</span>
+          </h1>
+          <div>
+            <p>
+              We help technology-first companies with speed and value delivery
+              by bringing in best development practices and skills that unblock
+              in-house teams.
+            </p>
+          </div>
+        </div>
+        <div class="hero-statics grid auto-rows-[20vh] grid-cols-1 gap-3">
+          <div class="rounded-xl bg-[#F9FBF7]">1</div>
+          <div class="rounded-xl bg-[#F9FBF7]">2</div>
+          <div class="rounded-xl bg-[#F9FBF7]">3</div>
+          <div class="rounded-xl bg-[#F9FBF7]">4</div>
+        </div>
+        <div class="hero-btn flex items-center justify-center">
+          <button
+            class="rounded-full bg-blue-700 px-8 py-4 font-medium text-white"
+          >
+            See other Projects
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
